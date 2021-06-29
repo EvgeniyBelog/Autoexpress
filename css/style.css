@@ -472,7 +472,7 @@ cursor: pointer;
   margin-bottom: 30px;
  }
  .contacts__input{
-  widows: 100%;
+  width: 93%;
  }
  .contacts__button{
   margin-top: 20px;
@@ -579,21 +579,24 @@ cursor: pointer;
 .services__item::before{
   left: 11px;
  }
- .button--decor::before,
- .button--decor::after{
-   display: none;
-  }
- .services__inner,
- .benefits,
- .carousel{
-  margin-bottom: 50px;
- }
- .carousel .slick-dots button{
-  width: 10px;
- }
- .contacts__form{
-  padding: 50px 10px 57px;
- }
+.button--decor::before,
+.button--decor::after{
+  display: none;
+}
+
+.services__inner,
+.benefits,
+.carousel{
+ margin-bottom: 50px;
+}
+
+.carousel .slick-dots button{
+ width: 10px;
+}
+
+.contacts__form{
+ padding: 50px 75px 57px;
+}
 }
 
 @media (max-width: 360px){

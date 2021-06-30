@@ -23,7 +23,10 @@ $('.carousel__inner').slick({
 
 });
 
-function showInput(){
+function showInput(evt){
+
+ evt.preventDefault(); 
+ 
  let name = document.getElementById('name');
  let phone = document.getElementById('phone');
 
